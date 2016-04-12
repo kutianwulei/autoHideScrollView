@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.chuck.autohidescrollview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.chuck.autohidescrollview.activity.MainActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.chuck.autohidescrollview.activity.BounceListViewActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.chuck.autohidescrollview.activity.BounceGridViewActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.chuck.autohidescrollview.activity.AutoHideScrollViewActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.chuck.autohidescrollview.activity.XScrollViewActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.chuck.autohidescrollview.activity.AutoHideXScrollViewActivity"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>
